@@ -1,7 +1,7 @@
 
-# Encriptador de texto âœ…
+# Encriptador de texto ✅
 
-PequeÃ±o ejercicio de un encriptador de texto hecho en html, css y javascript.
+Pequeño ejercicio de un encriptador de texto hecho en html, css y javascript.
 
 
 ## Autores
@@ -16,7 +16,7 @@ PequeÃ±o ejercicio de un encriptador de texto hecho en html, css y javascript.
 
 
 
-## CaracterÃ­sticas
+## Características
 
 - Cambio de modo claro/oscuro
 - Vistas previas en vivo
