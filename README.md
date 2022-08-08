@@ -16,7 +16,7 @@ Pequeño ejercicio de un encriptador de texto hecho en html, css y javascript.
 
 
 
-## Futuros 
+## Futuros Cambios
 
 - Cambio de modo claro/oscuro
 - Vistas previas en vivo
