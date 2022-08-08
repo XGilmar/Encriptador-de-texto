@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="cabeza-principal">
+      <img class="fondo" src="img/fondo.png" alt="fondo">
+    </header>
+
+    <main role="main">
+      <section class="container">
+        <h2>Encriptador de texto</h2>
+        <div class="encriptar">
+          <textarea
+            id="introducir-texto"
+            class="textarea"
+            type="mensaje"
+            placeholder="Ingrese el texto aquí"
+          >
+          </textarea>
+          <!--boton limpiar campo ----->
+          <button class="btnDelete" id="eliminarTxt">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+          <div class="alerta">
+            <p>
+              <i class="fas fa-exclamation-circle"></i>Solo letras minúsculas y
+              sin acentos
+            </p>
+          </div>
+        </div>
+        <div class="desencriptar">
+          <textarea
+            id="resultado"
+            class="textarea"
+            type="mensaje"
+            cols="50"
+            rows="10"
+            readonly
+          >
+          </textarea>
+          <!--boton copiar ----->
+          <button class="btnCopy" id="copiarTxt">
+            <i class="far fa-clipboard"></i>
+          </button>
+        </div>
+        <!------botones a la acción--->
+        <div class="btn-container">
+          <button id="btn1" class="btn1">
+            <i class="fas fa-lock"></i>
+            Encriptar
+          </button>
+          <button id="btn2" class="btn2">
+            <i class="fas fa-unlock-alt"></i>
+            Desencriptar
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="creditos">
+      <i class="fab fa-linkedin">
+        <a href="https://www.linkedin.com/in/gilmar-escudero-2806b5159"
+          >Gilmar Escudero</a
+        >
+      </i>
+      <i class="fab fa-github">
+        <a href="https://github.com/XGilmar">Gilmar Escudero</a>
+      </i>
+    </footer>
+    <script src="js/copiar.js"></script>
+    <script src="js/encriptador.js"></script>
+  </body>
+</html>
