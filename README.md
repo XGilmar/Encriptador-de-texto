@@ -1,5 +1,5 @@
 
-# Encriptador de texto ✅
+# Encriptador de texto
 
 Pequeño ejercicio de un encriptador de texto hecho en html, css y javascript.
 
