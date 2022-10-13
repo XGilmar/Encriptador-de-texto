@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador</title>
+    <link rel="icon" href="img/mi logo.webp">
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -11,21 +12,18 @@
     />
   </head>
   <body>
-    <header class="cabeza-principal">
-      <img class="fondo" src="img/fondo.png" alt="fondo">
-    </header>
+    
 
-    <main role="main">
+    <main class="main">
       <section class="container">
         <h2>Encriptador de texto</h2>
         <div class="encriptar">
           <textarea
             id="introducir-texto"
-            class="textarea"
+            class="textarea uno"
             type="mensaje"
             placeholder="Ingrese el texto aquí"
-          >
-          </textarea>
+          ></textarea>
           <!--boton limpiar campo ----->
           <button class="btnDelete" id="eliminarTxt">
             <i class="fas fa-trash-alt"></i>
@@ -40,13 +38,10 @@
         <div class="desencriptar">
           <textarea
             id="resultado"
-            class="textarea"
+            class="textarea dos"
             type="mensaje"
-            cols="50"
-            rows="10"
             readonly
-          >
-          </textarea>
+          ></textarea>
           <!--boton copiar ----->
           <button class="btnCopy" id="copiarTxt">
             <i class="far fa-clipboard"></i>
@@ -67,9 +62,7 @@
     </main>
     <footer class="creditos">
       <i class="fab fa-linkedin">
-        <a href="https://www.linkedin.com/in/gilmar-escudero-2806b5159"
-          >Gilmar Escudero</a
-        >
+        <a href="https://www.linkedin.com/in/gilmarescudero">Gilmar Escudero</a>
       </i>
       <i class="fab fa-github">
         <a href="https://github.com/XGilmar">Gilmar Escudero</a>
