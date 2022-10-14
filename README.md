@@ -12,7 +12,7 @@ Pequeño ejercicio de un encriptador de texto hecho en html, css y javascript.
 ## Capturas de pantalla
 
 
-![IMG-20220807-231853.jpg](https://user-images.githubusercontent.com/86094668/195736511-4e3abc2f-6ceb-4491-abe5-9f4c5af93bfd.jpg)
+![IMG-20220807-231853.jpg](https://user-images.githubusercontent.com/86094668/195754536-16b4f6fb-6354-4fa1-ad81-9299ef52c17c.jpg)
 
 
 
